@@ -6,5 +6,4 @@ const caseSchema = new mongoose.Schema({
 });
 
 const Case = mongoose.model('Case', caseSchema);
-
 module.exports = Case;
